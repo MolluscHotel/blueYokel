@@ -58,8 +58,8 @@ if (dx> 11){ddx=-ddx; c.fillStyle = 'red';};
 if (dx< -18){ddx=-ddx/0.9;c.fillStyle = 'green'; y+=1;};
 y+= dy;
 dy+=ddy;
-if (dy> 15){ddy=-ddy; c.fillStyle = 'purple';x=450; y=250;};
-if (dy< -20){ddy=-ddy;c.fillStyle = 'green'; x=y+10; y=300;};
+if (dy> 10){ddy=-ddy; c.fillStyle = 'purple';x=450; y=250;};
+if (dy< -10){ddy=-ddy;c.fillStyle = 'green'; x=y+10; y=300;};
 radius += dr;
 }
 
