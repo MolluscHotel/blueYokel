@@ -50,7 +50,7 @@ if (y +  radius > window.innerHeight - 100){dy = -dy;
     c.strokeStyle = 'purple'; c.fillStyle = 'black';};
 if (y -  radius < 100){dy = -dy; c.strokeStyle = 'yellow';};
 if (radius>200){dr= -dr; c.strokeStyle = 'red';c.fillStyle = 'black';
-x= 100+radius;};
+//x= 100+radius;//};
 if (radius<20){dr= -dr; c.strokeStyle = 'orange';c.fillStyle = 'gray';};
 x+=dx;
 dx+=ddx;
