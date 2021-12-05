@@ -50,7 +50,7 @@ if (y +  radius > window.innerHeight - 100){dy = -dy;
     c.strokeStyle = 'purple'; c.fillStyle = 'black';};
 if (y -  radius < 100){dy = -dy; c.strokeStyle = 'yellow';};
 if (radius>200){dr= -dr; c.strokeStyle = 'red';c.fillStyle = 'black';
-//x= 100+radius;//};
+/*x= 100+radius;*/};
 if (radius<20){dr= -dr; c.strokeStyle = 'orange';c.fillStyle = 'gray';};
 x+=dx;
 dx+=ddx;
@@ -59,7 +59,7 @@ if (dx< -18){ddx=-ddx/0.9;c.fillStyle = 'green'; y+=1;};
 y+= dy;
 dy+=ddy;
 if (dy> 15){ddy=-ddy; c.fillStyle = 'purple';x=450; y=250;};
-if (dy< -20){ddy=-ddy;c.fillStyle = 'green'; //x=y+100; y=300+ radius;//};
+if (dy< -20){ddy=-ddy;c.fillStyle = 'green'; /*x=y+100; y=300+ radius;*/};
 radius += dr;
 }
 
